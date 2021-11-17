@@ -13,6 +13,11 @@
 ## Installation
 
 ### Packages
+* ee
+* geemap
+* pandas
+* matplotlib.pyplot
+* numpy
 
 ### Environment
 
