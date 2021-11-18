@@ -42,11 +42,11 @@ This notebook was created to provide an introduction to using satellite data fro
 ## Installation
 
 ### Packages
-* ee
-* geemap
-* pandas
-* matplotlib.pyplot
-* numpy
+* `ee`
+* `geemap`
+* `pandas`
+* `matplotlib.pyplot`
+* `numpy`
 
 ### Environment
 
