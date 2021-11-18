@@ -9,6 +9,35 @@
 
 ## Project Details
 
+The dataset JAWS is exploring is USGS Landsat 8 Level 2, Collection 2, Tier 1 sourced from Google Earth Engine. The creators of the dataset is a Joint program of USGS and NASA. Landsat8 is a joint effort between USGS and NASA, with data collected from 2013-04-11 to the present. This particular dataset is the atmospherically corrected surface reflectance and land surface temperature from the Landsat 8 OLI/TIRS sensors.
+
+This notebook was created to provide an introduction to using satellite data from the USGS Landsat 8 Level 2, Collection 2, Tier 1 sourced from Google Earth Engine for analysis to identify soil composition.
+
+**Bands**
+* SR_B1: Band 1 (ultra blue, coastal aerosol) surface reflectance
+* SR_B2: Band 2 (blue) surface reflectance
+* SR_B3: Band 3 (green) surface reflectance
+* SR_B4: Band 4 (red) surface reflectance
+* SR_B5: Band 5 (near infrared) surface reflectance
+* SR_B6: Band 6 (shortwave infrared 1) surface reflectance
+* SR_B7: Band 7 (shortwave infrared 2) surface reflectance
+* ST_B10: Band 10 surface temperature. 
+
+**Selected Metadata Definitions**
+
+'CLOUD_COVER': Percentage cloud cover (0-100), -1 = not calculated.
+'CLOUD_COVER_LAND': Percentage cloud cover over land (0-100), -1 = not calculated.
+'DATA_SOURCE_ELEVATION': Elevation data source.
+'DATA_SOURCE_WATER_VAPOR': Water vapor data source.
+'EARTH_SUN_DISTANCE': Earth-Sun distance (AU) One astronomical unit (AU) is about 93 million miles (150 million kilometers)
+'IMAGE_QUALITY_OLI': Image quality of the OLI bands. 1 = worst, 9 = best, 0 = quality not calculated. For Landsat 8, this parameter is adjusted downward for scenes collected using the lower 12 bits from the OLI sensor (TRUNCATION_OLI = "LOWER").
+'IMAGE_QUALITY_TIRS': Image quality of the TIRS bands. 1 = worst, 9 = best, 0 = quality not calculated. It is also adjusted downward for scenes processed with "SWITCHED" for the TIRS_SSM_POSITION_STATUS value.
+'SENSOR_ID': Name of the sensor.
+'SPACECRAFT_ID': Name of the spacecraft.
+'SUN_ELEVATION': Sun elevation angle in degrees for the image center location at the image center acquisition time. A positive value indicates a daytime scene. A negative value indicates a nighttime scene. Note: For reflectance calculation, the sun zenith angle is needed, which is 90 - sun elevation angle.
+'SUN_AZIMUTH': Sun azimuth angle in degrees for the image center location at the image center acquisition time. A positive value indicates angles to the east or clockwise from the north. A negative value indicates angles to the west or counterclockwise from the north.
+'WRS_PATH': The Worldwide Reference System (WRS) is a global notation system for Landsat data. It is used to identify the path and row of each Landsat image. The path is the descending orbit of the satellite. Each path is segmented into 119 rows, from north to south.
+
 
 ## Installation
 
@@ -22,6 +51,11 @@
 ### Environment
 
 ## Usage
+
+Identifying Gypsic Soils
+Mapping habitat suitability for the identification and conservation of the Guadalupe Mountain necklacepod (Sophora gypsophila)
+
+*Sophora gypsophila* is a G1 Critically Endangered shrub in the pea family endemic to a small area surrounding the Guadalupe mountains in Southeastern New Mexico and Western Texas. Part of what puts *S. gypsophila* at risk is the fact that it is a substrate obligate - in other words, it can only survive in a specific soil type. But this also gives us an advantage: it means that we can identify potentially suitable habitat simply by mapping the gypsic areas in the vicinity of existing populations of *S. gypsophila* and subsetting these areas by the plant's known elevation range. This can be done using Landsat bands 1, 5, and 7, taking advantage of the fact that gypsic soils are highly reflective in band 5 () but particularly nonreflective in band 7 ().
 
 ## References
 
