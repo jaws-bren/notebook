@@ -50,6 +50,8 @@ This notebook was created to provide an introduction to using satellite data fro
 
 ### Environment
 
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/jaws-bren/notebook/main)
+
 ## Usage
 
 Identifying Gypsic Soils
