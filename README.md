@@ -15,7 +15,7 @@ Landsat 8 is a joint effort between USGS and NASA, with data collected from 2013
 
 This project used the Google Earth Engine API to download Landsat 8 data in order to explore potential habitat for an endangered plant species. By comparing NDVI and OIF bands, this study was able to determine possible regions of high gypsum concentration in the Guadalupe Mountains.
 
-**Bands**
+**Landsat 8 Bands**
 * SR_B1: Band 1 (ultra blue, coastal aerosol) surface reflectance
 * SR_B2: Band 2 (blue) surface reflectance
 * SR_B3: Band 3 (green) surface reflectance
@@ -27,19 +27,18 @@ This project used the Google Earth Engine API to download Landsat 8 data in orde
 
 **Selected Metadata Definitions**
 
-'CLOUD_COVER': Percentage cloud cover (0-100), -1 = not calculated.
-'CLOUD_COVER_LAND': Percentage cloud cover over land (0-100), -1 = not calculated.
-'DATA_SOURCE_ELEVATION': Elevation data source.
-'DATA_SOURCE_WATER_VAPOR': Water vapor data source.
-'EARTH_SUN_DISTANCE': Earth-Sun distance (AU) One astronomical unit (AU) is about 93 million miles (150 million kilometers)
-'IMAGE_QUALITY_OLI': Image quality of the OLI bands. 1 = worst, 9 = best, 0 = quality not calculated. For Landsat 8, this parameter is adjusted downward for scenes collected using the lower 12 bits from the OLI sensor (TRUNCATION_OLI = "LOWER").
-'IMAGE_QUALITY_TIRS': Image quality of the TIRS bands. 1 = worst, 9 = best, 0 = quality not calculated. It is also adjusted downward for scenes processed with "SWITCHED" for the TIRS_SSM_POSITION_STATUS value.
-'SENSOR_ID': Name of the sensor.
-'SPACECRAFT_ID': Name of the spacecraft.
-'SUN_ELEVATION': Sun elevation angle in degrees for the image center location at the image center acquisition time. A positive value indicates a daytime scene. A negative value indicates a nighttime scene. Note: For reflectance calculation, the sun zenith angle is needed, which is 90 - sun elevation angle.
-'SUN_AZIMUTH': Sun azimuth angle in degrees for the image center location at the image center acquisition time. A positive value indicates angles to the east or clockwise from the north. A negative value indicates angles to the west or counterclockwise from the north.
-'WRS_PATH': The Worldwide Reference System (WRS) is a global notation system for Landsat data. It is used to identify the path and row of each Landsat image. The path is the descending orbit of the satellite. Each path is segmented into 119 rows, from north to south.
-
+'CLOUD_COVER': Percentage cloud cover (0-100), -1 = not calculated.<br>
+'CLOUD_COVER_LAND': Percentage cloud cover over land (0-100), -1 = not calculated.<br>
+'DATA_SOURCE_ELEVATION': Elevation data source.<br>
+'DATA_SOURCE_WATER_VAPOR': Water vapor data source.<br>
+'EARTH_SUN_DISTANCE': Earth-Sun distance (AU) One astronomical unit (AU) is about 93 million miles (150 million kilometers).<br>
+'IMAGE_QUALITY_OLI': Image quality of the OLI bands. 1 = worst, 9 = best, 0 = quality not calculated. For Landsat 8, this parameter is adjusted downward for scenes collected using the lower 12 bits from the OLI sensor (TRUNCATION_OLI = "LOWER").<br>
+'IMAGE_QUALITY_TIRS': Image quality of the TIRS bands. 1 = worst, 9 = best, 0 = quality not calculated. It is also adjusted downward for scenes processed with "SWITCHED" for the TIRS_SSM_POSITION_STATUS value.<br>
+'SENSOR_ID': Name of the sensor.<br>
+'SPACECRAFT_ID': Name of the spacecraft.<br>
+'SUN_ELEVATION': Sun elevation angle in degrees for the image center location at the image center acquisition time. A positive value indicates a daytime scene. A negative value indicates a nighttime scene. Note: For reflectance calculation, the sun zenith angle is needed, which is 90 - sun elevation angle.<br>
+'SUN_AZIMUTH': Sun azimuth angle in degrees for the image center location at the image center acquisition time. A positive value indicates angles to the east or clockwise from the north. A negative value indicates angles to the west or counterclockwise from the north.<br>
+'WRS_PATH': The Worldwide Reference System (WRS) is a global notation system for Landsat data. It is used to identify the path and row of each Landsat image. The path is the descending orbit of the satellite. Each path is segmented into 119 rows, from north to south.<br>
 
 ## Installation
 
