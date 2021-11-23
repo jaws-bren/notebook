@@ -1,5 +1,5 @@
 # JAWS | BREN
-## Mapping habitat suitability for the identification and conservation of the Guadalupe Mountain necklacepod (Sophora gypsophila)
+## Mapping habitat suitability for the identification and conservation of the Guadalupe Mountain necklacepod (*Sophora gypsophila*)
 
 **Student Authors:**<br>
 **J**ulia Parish<br>
@@ -55,10 +55,10 @@ This project used the Google Earth Engine API to download Landsat 8 data in orde
 
 ## Usage
 
-Identifying Gypsic Soils
-Mapping habitat suitability for the identification and conservation of the Guadalupe Mountain necklacepod (Sophora gypsophila)
+**Identifying Gypsic Soils Using Landsat 8 Data**
+Mapping habitat suitability for the identification and conservation of the Guadalupe Mountain necklacepod (*Sophora gypsophila*)
 
-*Sophora gypsophila* is a G1 Critically Endangered shrub in the pea family endemic to a small area surrounding the Guadalupe mountains in Southeastern New Mexico and Western Texas. Part of what puts *S. gypsophila* at risk is the fact that it is a substrate obligate - in other words, it can only survive in a specific soil type. But this also gives us an advantage: it means that we can identify potentially suitable habitat simply by mapping the gypsic areas in the vicinity of existing populations of *S. gypsophila* and subsetting these areas by the plant's known elevation range. This can be done using Landsat bands 1, 5, and 7, taking advantage of the fact that gypsic soils are highly reflective in band 5 () but particularly nonreflective in band 7 ().
+*Sophora gypsophila* is a G1 Critically Endangered shrub in the pea family endemic to a small area surrounding the Guadalupe mountains in Southeastern New Mexico and Western Texas. Part of what puts *S. gypsophila* at risk is the fact that it is a substrate obligate - in other words, it can only survive in a specific soil type. But this also gives us an advantage: it means that we can identify potentially suitable habitat simply by mapping the gypsic areas in the vicinity of existing populations of *S. gypsophila* and subsetting these areas by the plant's known elevation range. This can be done using Landsat bands 1, 5, and 7, taking advantage of the fact that gypsic soils are highly reflective in band 5 but particularly nonreflective in band 7.
 
 ## References
 
