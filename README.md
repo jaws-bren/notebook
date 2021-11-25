@@ -46,8 +46,7 @@ This project used the Google Earth Engine API to download Landsat 8 data in orde
 * `ee`
 * `geemap`
 * `pandas`
-* `matplotlib.pyplot`
-* `numpy`
+* `pprint`
 
 ### Binder Environment
 
