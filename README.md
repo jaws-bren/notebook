@@ -1,5 +1,6 @@
 # JAWS | BREN
-## Mapping habitat suitability for the identification and conservation of the Guadalupe Mountain necklacepod (*Sophora gypsophila*)
+## Identifying Gypsic Soil
+### Mapping habitat suitability for the identification and conservation of the Guadalupe Mountain necklacepod (*Sophora gypsophila*)
 
 **Student Authors:**<br>
 **J**ulia Parish<br>
