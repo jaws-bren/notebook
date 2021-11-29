@@ -68,6 +68,8 @@ Boettinger, J., Ramsey, R., Bodily, J., Cole, N., Kienast-brown, S., Nield, S., 
 
 Browning, D. M., & Duniway, M. C. (2011). Digital Soil Mapping in the Absence of Field Training Data: A Case Study Using Terrain Attributes and Semiautomated Soil Signature Derivation to Distinguish Ecological Potential. Applied and Environmental Soil Science, 2011, e421904. https://doi.org/10.1155/2011/421904
 
+Landsat Collection 2 Summary and Sample Metadata Now Available. (2019). Landsat Science. Retrieved November 28, 2021, from https://landsat.gsfc.nasa.gov/article/landsat-collection-2-summary-and-sample-metadata-now-available
+
 Landsat 8 data courtesy of the U.S. Geological Survey. https://developers.google.com/earth-engine/datasets/catalog/LANDSAT_LC08_C02_T1_L2#image-properties
 
 Nield, S. J., Boettinger, J. L., & Ramsey, R. D. (2007). Digitally Mapping Gypsic and Natric Soil Areas Using Landsat ETM Data. Soil Science Society of America Journal, 71(1), 245–252. https://doi.org/10.2136/sssaj2006-0049
